@@ -17,7 +17,7 @@
       color: white;
   }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
 
 body{
 background-image: url("./images/bg-mobile.svg");
@@ -27,8 +27,8 @@ background-image: url("./images/bg-mobile.svg");
 
 /* spacing */
 .container{
-    margin-top: 9vh;
-    margin-bottom: 18vh;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
 }
 .mg-sides{
     padding: 5%;
@@ -64,7 +64,7 @@ width: 100%;
 
    }
 
-   @media (max-width: 375px) {
+   @media (max-width: 425px) {
 .btn{
     width: 80%;
 }
@@ -72,8 +72,11 @@ width: 100%;
 
 
    /* align item */
+.links-align {
+    text-align: end;
+}
 
-    @media (max-width: 375px) {
+    @media (max-width: 425px) {
  .btn-align{
     margin-right: auto;
     margin-left: auto;
@@ -81,4 +84,21 @@ width: 100%;
 .align-center{
     text-align: center;
 }
+.links-align {
+text-align: center;
+}
     }
+
+    
+    /* border decoration */
+.border-items{
+   border-style: solid;
+   border-width: 1px;
+   margin: 4px;
+   padding: 10px;
+clear: right;
+position: relative;
+   text-align: center;
+
+   border-radius: 999px;
+}
